@@ -1,0 +1,4 @@
+[tools]
+go = "1.22"
+python = "3.12"
+poetry = "latest"

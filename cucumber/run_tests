@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+mkdir -p logs
+poetry install
+poetry run behave "$@"

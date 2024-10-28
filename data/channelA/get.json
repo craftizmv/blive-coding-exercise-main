@@ -1,0 +1,40 @@
+{
+  "id": "channelA",
+  "ingest_point": "rtmp://ingest.channelA.com/channelA",
+  "playback_point": "http://playback.channelA.com/channelA",
+  "renditions": [
+    {
+      "id": "channelA-720p",
+      "name": "720p",
+      "bitrate": 2000000,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": 30,
+      "profile": "main",
+      "mime_type": "video/mp4",
+      "drm_protected": false
+    },
+    {
+      "id": "channelA-480p",
+      "name": "480p",
+      "bitrate": 1000000,
+      "width": 854,
+      "height": 480,
+      "frame_rate": 30,
+      "profile": "main",
+      "mime_type": "video/mp4",
+      "drm_protected": false
+    },
+    {
+      "id": "channelA-360p",
+      "name": "360p",
+      "bitrate": 500000,
+      "width": 640,
+      "height": 360,
+      "frame_rate": 30,
+      "profile": "main",
+      "mime_type": "video/mp4",
+      "drm_protected": false
+    }
+  ]
+}
